@@ -21,16 +21,6 @@ objPosDoubleHashing::~objPosDoubleHashing()
     // delete the Hash Table
 }
 
-int objPosQuadHashing::getTableSize()
-{
-    // return the hash table size
-}
-
-objPos* objPosQuadHashing::getTableReference()
-{
-    // return the reference to the hash table
-}
-
 int objPosDoubleHashing::calculateHashing(int prefix, int number) const  // hashing function
 {    
     // Implementing the primary hashing function
